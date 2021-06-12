@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --dark: #53125c;
+  --light: #ceb0da;
+  --project-purple: #64088f;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+body {
+  background-color: var(--light);
+}
+
+.header {
+  padding: 20px;
+  font-family: "Titillium Web", sans-serif;
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 48px;
+  text-shadow: 1px 1px #353333;
+}
+
+p {
+  font-size: 16px;
+}
+
+.subtitle-image {
+  background-image: url(/src/images/purple_back2.jpg);
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  border: 1px solid var(--dark);
+}
+
+.subtitle {
+  font-size: 20px;
+  float: right;
+  margin: -25px 15px 0px 0px;
+  color: var(--project-purple);
+  background-color: #ffffff;
+  text-shadow: #353333;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+}

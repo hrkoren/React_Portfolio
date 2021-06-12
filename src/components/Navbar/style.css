@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --dark: #53125c;
+  --light: #ceb0da;
+  --project-purple: #64088f;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+body {
+  background-color: var(--light);
+}
+
+a {
+  color: #777575;
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ad12c2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #85085f;
+  background-color: rgb(239, 159, 250);
+}
+
+p {
+  font-size: 16px;
+}
+
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}

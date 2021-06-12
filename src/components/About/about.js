@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import './style.css';
 
 class About extends Component {
     render() {
-        // let resume = this.props.resume;
         return (
             <section id='about'>
-                <h2 class='side-header'></h2>
+                <h2 class='side-header'>About Me</h2>
                 <p id='about-content' img src='../images/self-image.jpg' alt='picture of Heather'>My background is in speech-language pathology and rehabilitation science and technology.
                     I have worked in the assistive technology field off and on for over twenty years. It has been a rewarding career, but
                     my passion for challenge led me to pursue my long-time desire to become a full-stack developer.
@@ -14,7 +14,7 @@ class About extends Component {
                     I am a published author, avid reader, and a mother of three ambitious young adults pursuing their dreams in life.
                 </p>
             </section>
-        )
+        );
     }
 }
 

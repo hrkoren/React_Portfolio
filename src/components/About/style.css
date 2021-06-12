@@ -1,0 +1,32 @@
+#about {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 75%;
+}
+
+#about-content {
+  line-height: 1.2em;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  color: black;
+  padding: 15px;
+  padding-right: 250px;
+  width: 75%;
+  float: right;
+  margin-bottom: 25px;
+  background-image: url(/src/images/self.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.side-header {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  color: var(--dark);
+  padding: 15px;
+  border-right: 5px solid var(--project-purple);
+  margin-top: 10px;
+  height: 250px;
+  flex-wrap: wrap;
+  flex-basis: 15%;
+}
