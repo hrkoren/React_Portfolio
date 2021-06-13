@@ -11,7 +11,6 @@ class Header extends Component {
 
                 <div>
                     <section class='subtitle-image'></section>
-
                     <section class='subtitle'>
                         <h2 id='subtitle'>My Full-Stack Development Portfolio</h2>
                     </section>
