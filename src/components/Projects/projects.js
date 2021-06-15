@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './style.css';
+import { Card } from 'react-bootstrap';
+import CardColumns from 'react-bootstrap/CardColumns';
+import Project1 from '../../images/Project1.PNG';
 
 class Projects extends Component {
     render() {
@@ -7,6 +10,18 @@ class Projects extends Component {
             <section id='work'>
                 <h2 class='side-header'>Project Portfolio</h2>
                 <div class='portfolio-container'>
+                    <CardColumns>
+                        <Card>
+                            <Card.Img variant='top' src={Project1} />
+                            <Card.Body>
+                                <Card.Title>Beatzilla - Group Project</Card.Title>
+                                <Card.Text>
+                                    App lets music lovers to explore more music from their favorite and similar new artists by searhing for their top tracks.
+                                </Card.Text>
+                                <Card.Link href='https://jakech617.github.io/beatzilla/'>Beatzilla</Card.Link>
+                            </Card.Body>
+                        </Card>
+                    </CardColumns>
                     {/* <a href='https://jakech617.github.io/beatzilla/'>
                         <img src={props.img} className='fade' id='proj1' type='_blank' alt='screenshot of project' />
                     </a> */}
