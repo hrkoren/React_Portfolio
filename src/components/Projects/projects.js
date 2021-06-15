@@ -12,9 +12,9 @@ class Projects extends Component {
         return (
             <section id='work'>
                 <h2 class='side-header'>Project Portfolio</h2>
-                <div class='portfolio-container'>
+                <div class='portfolio-container' style={{ display: 'flex', flexDirection: 'row' }}>
                     <CardColumns>
-                        <Card className='card' style={{ width: '18rem' }}>
+                        <Card className='card' style={{ width: '18rem', flex: 1 }}>
                             <Card.Img className='image' variant='top' src={Project1} />
                             <Card.Body>
                                 <Card.Title>Beatzilla - Group Project</Card.Title>

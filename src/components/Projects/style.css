@@ -14,11 +14,11 @@ main {
   max-width: 80%;
 }
 
-#work {
+/* #work {
   display: flex;
   flex-direction: row;
   flex-basis: 75%;
-}
+} */
 
 .side-header {
   font-family: "Titillium Web", sans-serif;
@@ -37,17 +37,17 @@ main {
   height: 450px;
 }
 
-.portfolio-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: 80%;
-  justify-content: center;
-  align-content: center;
-  align-content: wrap;
-  padding: 3px;
+/* .portfolio-container { */
+/* display: flex; */
+/* flex-direction: row; */
+/* flex-wrap: wrap; */
+/* flex-basis: 80%; */
+/* justify-content: center; */
+/* align-content: center;
+  align-content: wrap; */
+/* padding: 3px;
   margin-top: -45px;
-}
+} */
 
 .card {
   border-radius: 2px;
