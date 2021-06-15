@@ -11,8 +11,8 @@ class Projects extends Component {
                 <h2 class='side-header'>Project Portfolio</h2>
                 <div class='portfolio-container'>
                     <CardColumns>
-                        <Card>
-                            <Card.Img variant='top' src={Project1} />
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img className='image' variant='top' src={Project1} />
                             <Card.Body>
                                 <Card.Title>Beatzilla - Group Project</Card.Title>
                                 <Card.Text>
