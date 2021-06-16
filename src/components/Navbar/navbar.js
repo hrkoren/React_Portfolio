@@ -12,10 +12,10 @@ class Navbar extends Component {
                         <a href={About}>About Me</a>
                     </li>
                     <li>
-                        <a href={Projects}>Work</a>
+                        <a href={Projects}>Projects</a>
                     </li>
                     <li>
-                        <a href='./Assets/Koren_Resume.pdf' target='_blank'>Resume</a>
+                        <a href='../../images/Koren_Resume.pdf' target='_blank'>Resume</a>
                     </li>
                 </ul>
             </nav>
