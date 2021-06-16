@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import About from '../../components/About/about';
+import Projects from '../../components/Projects/projects';
 import './style.css';
 
 class Navbar extends Component {
@@ -7,13 +9,10 @@ class Navbar extends Component {
             <nav>
                 <ul>
                     <li>
-                        <a href='#about-me'>About Me</a>
+                        <a href={About}>About Me</a>
                     </li>
                     <li>
-                        <a href='#work'>Work</a>
-                    </li>
-                    <li>
-                        <a href='#contact'>Contact Me</a>
+                        <a href={Projects}>Work</a>
                     </li>
                     <li>
                         <a href='./Assets/Koren_Resume.pdf' target='_blank'>Resume</a>

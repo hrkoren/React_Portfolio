@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --dark: #53125c;
+  --light: #ceb0da;
+  --project-purple: #64088f;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+}

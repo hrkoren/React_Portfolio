@@ -13,6 +13,7 @@
   padding-right: 250px;
   width: 75%;
   float: right;
+  margin-top: 25px;
   margin-bottom: 25px;
   background-image: url(/src/images/self.jpg);
   background-repeat: no-repeat;
@@ -29,4 +30,89 @@
   height: 250px;
   flex-wrap: wrap;
   flex-basis: 15%;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 75%;
+}
+
+#contact .side-header {
+  border-right: 5px solid var(--project-purple);
+  height: 100px;
+}
+
+.contact nav ul {
+  list-style-type: none;
+}
+
+.contact nav ul li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-content: wrap;
+  background-size: cover;
+}
+
+a .contact nav ul li {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+a:link .contact nav ul li {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+a:visited .contact nav ul li {
+  color: var(--project-purple);
+  text-decoration: none;
+}
+
+#phone {
+  display: inline-flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  margin-left: 15px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+#email {
+  display: inline-flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  margin: 5px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  padding: 5px 5px 0px 45px;
+}
+
+a[href^="mailto"] {
+  color: var(--dark);
+}
+
+#github {
+  display: inline-flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  margin: 5px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  padding: 5px 5px 0px 45px;
+}
+
+#linked {
+  display: inline-flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  margin: 5px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  padding: 5px 5px 0px 45px;
 }

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --dark: #53125c;
+  --light: #ceb0da;
+  --project-purple: #64088f;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+  background-color: var(--light);
+}
+
+#footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin-top: 200px;
+}
+
+p {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+}
+
+img {
+  border-radius: 15px;
+  margin-top: 40px;
+}
