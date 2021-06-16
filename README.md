@@ -10,7 +10,7 @@ Project portfolio using React
 
 This portfolio is to be used to explore my various full-stack web development projects.
 
-![Image of top-half of portfolio page]()
+![Image of top-half of portfolio page](/src/images/portfolio.PNG)\
 [View my portfolio]()
 
 ## License

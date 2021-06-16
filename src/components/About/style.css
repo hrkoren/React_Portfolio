@@ -1,3 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --dark: #53125c;
+  --light: #ceb0da;
+  --project-purple: #64088f;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
 #content {
   display: flex;
   flex-direction: column;
@@ -14,12 +30,12 @@
   font-size: 18px;
   color: black;
   padding: 15px;
-  padding-right: 150px;
+  padding-right: 250px;
   width: 75%;
   float: right;
 }
 
-.side-header {
+#about .side-header {
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
   color: var(--dark);
@@ -78,7 +94,7 @@ a:visited .contact nav ul li {
   margin-left: 15px;
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
-  padding: 5px;
+  /* padding: 5px; */
   margin-top: 25px;
 }
 
@@ -116,7 +132,7 @@ a[href^="mailto"] {
   padding: 5px 5px 0px 45px;
 }
 
-p {
+/* p {
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
-}
+} */
