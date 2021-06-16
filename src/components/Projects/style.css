@@ -26,28 +26,32 @@ main {
   flex-basis: 15%;
 }
 
+#work {
+  display: flex;
+}
+
 #work .side-header {
   border-right: 5px solid var(--project-purple);
-  height: 450px;
+  height: 750px;
 }
 
 .container {
-  margin-top: -5px;
+  display: flex;
+  padding: 15px;
 }
 
 .card {
   border-radius: 2px;
-  height: 325px;
+  height: 400px;
   margin: 1rem;
-  /* position: relative; */
   width: 325px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: center;
-  padding: 5px;
+  /* padding: 5px; */
 }
 
-.image {
+.img {
   max-height: 100px;
   max-width: 300px;
-  padding: 5px;
+  padding-top: 5px;
 }

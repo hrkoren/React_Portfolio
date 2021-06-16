@@ -21,7 +21,6 @@ class Projects extends Component {
                     <Container className='container'>
                         <CardColumns>
                             <Row>
-
                                 <Card className='card' style={{ width: '18rem' }}>
                                     <Card.Img className='image' variant='top' src={Project1} />
                                     <Card.Body>

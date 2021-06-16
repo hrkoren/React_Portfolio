@@ -8,11 +8,11 @@ function Home() {
         <section>
             <Container className='home-container'>
                 <div className='image'>
-                    <img src={self} alt='Heather' />
+                    <img id='self' src={self} alt='Heather' />
                 </div>
                 <div>
-                    <p>I'm an emerging Full Stack Web Developer.</p>
-                    <p>I attended The Ohio State Full Stack Development Bootcamp from January 2021 through July 2021.</p>
+                    <p className='homeP'>I'm an emerging Full Stack Web Developer.</p>
+                    <p className='homeP'>I attended The Ohio State Full Stack Development Bootcamp from January 2021 through July 2021.</p>
                 </div>
             </Container>
         </section>

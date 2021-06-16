@@ -1,7 +1,11 @@
+#content {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+}
+
 #about {
   display: flex;
-  flex-direction: row;
-  flex-basis: 75%;
 }
 
 #about-content {
@@ -10,14 +14,9 @@
   font-size: 18px;
   color: black;
   padding: 15px;
-  padding-right: 250px;
+  padding-right: 150px;
   width: 75%;
   float: right;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-image: url(/src/images/self.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
 .side-header {
@@ -115,4 +114,9 @@ a[href^="mailto"] {
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
   padding: 5px 5px 0px 45px;
+}
+
+p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
 }

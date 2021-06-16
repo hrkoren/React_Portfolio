@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import About from '../../components/About/about';
-import Projects from '../../components/Projects/projects';
+import { Link } from 'react-router-dom';
+import Pdf from '../../images/Koren_Resume.pdf';
 import './style.css';
 
 class Navbar extends Component {
@@ -9,13 +9,16 @@ class Navbar extends Component {
             <nav>
                 <ul>
                     <li>
-                        <a href={About}>About Me</a>
+                        <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <a href={Projects}>Projects</a>
+                        <Link to='/about'>About Me</Link>
                     </li>
                     <li>
-                        <a href='../../images/Koren_Resume.pdf' target='_blank'>Resume</a>
+                        <Link to='/projects'>Projects</Link>
+                    </li>
+                    <li>
+                        <a href={Pdf} target='_blank' rel="noreferrer">Resume</a>
                     </li>
                 </ul>
             </nav>

@@ -4,9 +4,9 @@ import './style.css';
 class About extends Component {
     render() {
         return (
-            <section id='about'>
-                <div>
-                    <h2 class='side-header'>About Me</h2>
+            <section id='content'>
+                <div id='about'>
+                    <h2 clasName='side-header'>About Me</h2>
                     <p id='about-content'>My background is in speech-language pathology and rehabilitation science and technology.
                         I have worked in the assistive technology field off and on for over twenty years. It has been a rewarding career, but
                         my passion for challenge led me to pursue my long-time desire to become a full-stack developer.
@@ -18,9 +18,9 @@ class About extends Component {
                     </p>
                 </div >
                 <div id='contact'>
-                    <h2 class='side-header'>Contact Me</h2>
+                    <h2 clasName='side-header'>Contact Me</h2>
                     <div>
-                        <ul class='contact'>
+                        <ul clasName='contact'>
                             <li id='phone'><strong>Phone:</strong>&nbsp; 412-660-4677</li>
                             <li id='email'><strong>Email:</strong>&nbsp; <a href='mailto:hrkoren@gmail.com'>hrkoren@gmail.com</a></li>
                             <li id='github'><strong>GitHub:</strong>&nbsp; <a href='https://github.com/hrkoren'>github.com/hrkoren</a></li>

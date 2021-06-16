@@ -20,17 +20,19 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   padding: 10px;
-  margin-top: 200px;
+  margin-bottom: 10px;
 }
 
-p {
+.homeP {
   text-align: center;
   font-family: "Titillium Web", sans-serif;
   padding: 10px;
   font-size: 20px;
+  margin-top: 30px;
 }
 
-img {
+#self {
   border-radius: 15px;
   margin-top: 40px;
+  padding-right: 30px;
 }
